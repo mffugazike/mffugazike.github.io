@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Michael Indako">
+	<meta name="keywords" content="HTML, CSS,Javascript">
+	<meta name="description" content="finius dot° website">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-app-capable" content="yes">
+				<title>Finius-dot° Website | app</title>
+				<link rel="stylesheet" type="text/css" href="style.css">
+				<script src="https://kit.fontawesome.com/ee4d4542b1.js" crossorigin="anonymous"></script>
+				<style>
+								*{
+				margin: 0;
+				padding: 0;
+				font-family: Ariel, sans-serif, Helvetica;
+			  scroll-behaviour: smooth;
+}
+.nav{
+      background: linear-gradient( 45deg , blue, lightGreen);
+				display: flex;
+			 justify-content: space-between;
+			/* height: 100vh;*/
+			/* border-radius: 5px;*/
+			width: 100%;
+}
+.nav ul{
+				display: flex;
+				list-style-type: none;
+				bottom: 10px;
+			  padding: 6px;
+			 /* background: blue;*/
+}
+.nav ul li{
+			  margin-top: 3px;
+				display: inline-block;
+				margin: 2px;
+			width: auto;
+			justify-content: space-around;
+}
+.nav ul li a{
+			  font: Arial, Helvetica, sans-serif;
+				color: #000000;
+				display: flex;
+				font-weight: bold;
+				/*cursor: pointer;*/
+				text-decoration: none;
+				text-align: right;
+				/*border-radius: 10px 0;*/
+			/*	border: 2px solid red;*/
+				font-size: 14px;
+				justify-content: space-around;
+				flex-basis: 0px;
+				margin-left: 10px;
+}
+.nav ul li a:hover {
+				color: white;
+				transition: 0.5s;
+				text-decoration: none;
+}
+.logo{
+				margin: 3px;
+				font-weight: 600;
+				line-height: px;
+				font-size: 20px;
+				bottom: 5%;
+				margin-top: 6px;
+}
+.logo h4{
+				font-size: 25px;
+}
+span {
+				color: red;
+				font-size: 25px;
+}
+/*marquee{
+				color: #000000;
+				font-size: 20px;
+}*/
+.portfolio{
+       background: linear-gradient( 45deg , blue, lightGreen);
+				 border: ;
+				 border-radius: 9px;
+				 height: ;
+}
+.header h2{
+				text-align: center;
+				bottom: 5px;
+}
+button {
+				background-color: light gray;
+				border: 1px solid red;
+				text-decoration: none;
+				font-size: 14px;
+				font-weight: bold;
+				border-radius: 10px;
+				margin: 0 10px;
+				padding: 0 5px;
+				outline: none;
+				text-overflow: none;
+				width: 90px;
+				height: 30px;
+}
+
+.header p{
+				font-weight:600;
+				font-size: 22px;
+				margin: 4px;
+}
+button a{
+				text-decoration: none;
+				m
+}
+.down-cv{
+				background-color: black;
+				color: #ffffff;
+				justify-content: space-around;
+				width: 100px;
+				height: 42px;
+}
+.hire-me{
+				margin: 5px;
+				width: 100px;
+				height: 42px;
+}
+button:active{
+transform:scale(1.1) ;
+}
+.header p:nth-child(3){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 498;
+letter-spacing: 1px;
+color: #1a1a1a;
+font-size: 40px
+}
+
+.header p:nth-child(4){
+				font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-weight: bold;
+      color: #403e3e ;
+      font-size: 22px;
+}
+.about-container{
+width: 100%;
+height: 400px;
+background-color: snow;
+border-radius: 20px;
+box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+position: relative;
+text-overflow: none;
+}
+.about-text{
+				width: auto;
+				margin: 6px;
+}
+.about-text img{
+				width: 80px;
+				padding: 20px;
+}
+.about-text p{
+				font-size: 1em;
+				font-family: Times New Roman;
+			 font: bold;
+}
+b{
+				font-size: 20px;
+}
+.about-text ul{
+				margin: 12px;
+}
+.about-text h3{
+				text-align: center;
+				margin:10px 0;
+				top: 1%;
+}
+.about-text h2{
+				margin: 9px;
+				top: 2%;
+}
+.blog{
+				margin-top: 15px;
+				font-family:'Handlee', cursive;
+    /*background:aqua;*/
+    font-weight:bold ;
+    border-radius: 10px;
+    border:1px solid gray ;
+    width: auto;
+}
+.blog-content h1 {
+    text-align:center ;
+    padding: 17px;
+    margin: 5px;
+}
+.blog-content h3{
+				font-weight: bold;
+				font-size: 17px;
+				margin-top: 9px;
+				margin: 5px;
+}
+.blog p{
+				margin: 2px;
+				font-size: 0.8em;
+				line-height: 21px;
+}
+.quote1{
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+    margin-top: 10px;
+    
+}
+.quote2{
+    margin-top:15px;
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+}
+.quote3{
+    margin-top:15px;
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+}
+.quote4{
+    margin-top:15px;
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+}
+.quote5{
+    margin-top:15px;
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+}
+
+.quote6{
+    margin-top:15px;
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+}
+
+.quote7{
+    margin-top:15px;
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+}
+.quote8{
+    margin-top:15px;
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+}
+.quote9{
+    margin-top:15px;
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+}
+.quote10{
+    margin-top:15px;
+    background:#cecece;
+    border:1px solid black;
+    text-align:center ;
+}
+.contact-content{
+				background: black;
+				color: white;
+				margin:5px;
+				margin-top: 13px;
+}
+.contact-content h2{
+				color: #ccc;
+				text-align: center;
+			  word-styling: wrap;
+			  font-weight: 300;
+			  font-size: 1.8em;
+			  margin: 5px;
+}
+.titleText span{
+				 font-weight: 700;
+			  font-size: 300;
+}
+.contact .contact-content p{
+				font-size: 1em;
+				font-weight: 300;
+				margin: 5px;
+}
+.contact-content button {
+				color:#fff; 
+				margin:9px; 
+				border-radius: 9px; 
+				font-size: 20px;
+				border: none;
+				text-align: center;
+				transition: 0.5s;
+				border: 2px solid gray;
+}
+.contact-content a{
+				text-align: center;
+				font-size: 15px;
+				font: bold;
+}
+.contact-content a:hover{
+				color: red;
+				transition: 1s;
+}
+.faqs-content{
+				position: relative;
+				
+}
+.faqs-content h2{
+				text-align: center;
+				font-weight: 500;
+				text-decoration: none;
+				font-size: 21px;
+				margin-top: 9px;
+}
+.faqs-content h4{
+			 margin: 4px;
+			 line-height: 13px
+			 justify-content: space-around;
+}
+.faqs-content a:hover{
+				cursor: pointer;
+				color: blue;
+}
+.Links h3{
+				margin-top: 8px;
+				margin: 3px;
+}
+.Links p{
+				margin: 0;
+				padding: 3px;
+}
+.Links ul{
+				
+}
+.Links ul a{
+				margin: 8px;
+				letter-spacing: 2px;
+			  display: flex;
+			  line-height: 13px;
+			  text-decoration: none;
+}
+/* ---footer--- */
+footer{
+				margin-top: 9px;
+}				
+summary {
+				width: 100%;
+				font-weight: bold;
+}
+footer .social-icons{
+				justify-content: space-between;
+				display: flex;
+}
+footer .social{
+				margin: 6px;
+				padding: 10px;
+				border-radius: 9px;
+}
+footer h2{
+				text-align: center;
+}
+
+.copyrightText{
+				padding: 8px;
+				border-top: 1px solid rgba(0,0,0,0.1);
+				text-align: center;
+				font: bold;
+				bottom: auto;
+}
+.copyrightText p{
+				color: black;
+				font-size: 17px;
+				margin-top: 9px;
+}
+.copyrightText a{
+				color: red;
+				font-weight: 500;
+				text-decoration: none;
+}
+@media only screen and (max-width: 1000px){
+				.about-container{
+								display: flex;
+								flex-wrap: wrap;
+								overflow: hidden;
+								width: 100%;
+								height: 450px;
+								/*position: absolute;*/
+				}
+				.nav{
+								overflow: hidden;
+								flex-wrap: wrap;
+				}
+}
+
+				</style>
+</head>
+<body>
+				
+				<section class="portfolio">
+								<div class="nav">
+								<div class="logo">
+										<h4>Finius<span>-dot°</span></h4>
+								</div>
+								<ul id="nav-list">
+																<li><a href="./index.html">Home</a></li>
+																<li><a href="#about.html">About</a></li>
+																<li><a href="#blog.html">Blog</a></li>
+																<li><a href="#contact.html">Contacts</a></li>
+												</ul>
+												<!--<button class="hamburger" id="hamburger">
+																<i class="fas fa-bars"></i>
+												</button><!--  -->
+								</div>			
+					<div class="header">
+								<h2>My portfolio</h2>
+								<p id="demo">
+				<button type="button" onclick='document.getElementById("demo"). innerHTML ="Hello there!"'>Click me</button>
+								</p>
+								<p>I'M <br>MICHAEL</p>
+    <p>I'm a Front-end Web Developer, Gamer <br> & Tech enthusiast</p>
+<button class="hire-me"><a href="sms:{MICHAEL}? body= {Hire me}">Hire Me</a></button>
+<button class="down-cv"><a href="">Download CV</a></button>
+				</div>
+				</section>
+				<section class="about-container" id="about.html">
+								<div class="about-text">
+												<h2>About <span>Me</span></h2>
+  <img src="Images/Me.jpg" alt="A pic of me" class="img" ALIGN="left"> 
+    <p>Hello,My name is <strong>Michael Indako</strong> I'm a <em><strong>self-taught Web developer,Designer,Gamer,Tech enthusiast,Introvert and got madd love for basketball🏀.</strong></em><br/> </p>
+    <p>Im skilled in
+    <ul>
+				<li>HTML</li><progress id="skills" value="100" max="100"></progress>
+    <li>CSS</li><progress id="skills" value="100" max="100"></progress>
+    <li>Python ...</li><progress id="skills" value="100" max="100"></progress>
+    </ul>
+    </p>
+    <p>I like to brunch on Tech, learning New stuff, reading and still learning more.<br>
+    I love the <b>²¹/⁹⁰</b> rule which says "it takes 21 days to create a habit and 90 day's to create a lifestyle"</p>
+								</div>
+				</section>
+				
+				<!-- blog content-->
+				<section class="blog" id="blog.html">
+								<div class="blog-content">
+											<h1><span>Quo</span>tes corner</h1><hr>
+									<details><summary>Open Me</summary>
+							<h3>Below are just some of the best Quotes to motivate you in your journey.Stay WOKE!!!</h3>
+								 				<div class="quote1">
+            <p>"We don't lose friends we.just know who real ones are." <br />
+            </p>
+            __Tommy Shelby Peaky Blinders<br>
+         </div>
+         <div class="quote2">
+            <p>"I will continue to learn from life until i reach a level that benefits me,and i will continue to make mistakes until i master what i want to learn."</p><br />
+            __Johhny Depp
+        </div>
+        <div class="quote3">
+            <p>"If you believed in Santa for more than 5 years you can believe in yourself for 10 seconds."</p><br />
+            __unknown
+        </div>
+        <div class="quote4">
+            <p>"Good judgement comes from experience and experience comes from bad judgement."</p><br />
+            __Barry LePatner
+        </div>
+         <div class="quote5">
+           <div class="quote5">
+            <p>"Recession is when a neighbor loses their job.Depression is when you lose yours."</p><br />
+            __Ronald Reagan
+        </div>
+         <div class="quote6">
+            <p>"Pain will stay until its done teaching you."</p><br />
+            __Bruce Lee
+        </div>
+        <div class="quote7">
+            <p>"If i had eight hours to chop down a tree, i'd spend the first six of them sharpening my axe"</p><br />
+            __Abraham Lincoln
+        </div>			
+        
+        <div class="quote8">
+            <p>"Don't shout for help at night, you may wake your neighbors"</p><br />
+            __Stanislaw Jerzy Lec
+        </div>		
+        <div class="quote9">
+            <p>"If a friend is in trouble, don't annoy him by asking him what you can do. Think up something appropriate and do it."</p><br />
+            __Edgar Watson Howe
+        </div>			
+        <div class="quote10">
+            <p>"It takes your enemy and your friend to hurt you to the heart.the one to slander you and the other to get the news to you."</p><br />
+            __Mark Twain
+        </div>				
+								</details>
+								</summary>			
+								</div>
+				</section>
+				
+				<section class="contact" id="contact.html">
+							<div class="contact-content">
+											<h2 class="titleText"><span>C</span>ontacts</h2>
+											<p>You can reach me through the following channels:</p>
+<!-- email info -->
+<p>Send me an Email</p>
+<!-- email button -->
+<button><a href="mailto: {mffugazi@gmail.com?} subject={subject} & body={content}">Email</a></button>
+<!-- telephone 📞 info -->
+<p>Call me on:</p>
+<button><a href="tel:{}">Phone</a></button>
+<!-- sms info -->
+<p>Send SMS<br/>
+ <button><a href="sms:MICHAEL? body={Send text}">Send SMS</a></button></p>
+ 
+ <hr>
+</div>
+	</div>	
+	<div class="faqs-content">
+					<h2>FAQs</h2>
+				  <h4><a href="#">How to get started in Web development or programming?</a></h4>
+					<h4><a href="#">Which languages to start with?</a></h4>
+					<h4><a href="#">What are the basics of programming or Web development?</a></h4>
+<h4><a href="#">Is Web development or programming the right career path.</a></h4>
+	</div>
+	<div class="Links">
+					<h3><strong>Important Links regarding performance and personal development</strong></h3>
+<p>To learn more about Web development and how to start, refer to the below links:
+<ul><a href="http://code.org">Code</a>
+    <a href="http://www.khanacademy.org">Khan Academy</a>
+    <a href="http://www.kaggle.com">Kaggle</a>
+    <a href="http://www.freecodecamp.org">Freecodecamp</a>
+  </ul>
+	</div>
+</section >
+<script type="text/javascript">
+				alert("Hello and thank you for visiting my website 😊");
+</script>
+<!-- footer content -->
+<footer>
+				<h2>Social Media</h2>
+				<div class="social-icons">
+								<div class="social"><a href="https://www.twitter.com/michalindako"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#0000ff" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg> </a>
+								</div>
+								<div class="social">
+								<a href="https://www.linkedin.com"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#0000ff" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+							</div>
+							<div class="social">
+								<a href="https://www.github.com/mffugazike"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#0000ff" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 6c-3.313 0-6 2.686-6 6 0 2.651 1.719 4.9 4.104 5.693.3.056.396-.13.396-.289v-1.117c-1.669.363-2.017-.707-2.017-.707-.272-.693-.666-.878-.666-.878-.544-.373.041-.365.041-.365.603.042.92.619.92.619.535.917 1.403.652 1.746.499.054-.388.209-.652.381-.802-1.333-.152-2.733-.667-2.733-2.965 0-.655.234-1.19.618-1.61-.062-.153-.268-.764.058-1.59 0 0 .504-.161 1.65.615.479-.133.992-.199 1.502-.202.51.002 1.023.069 1.503.202 1.146-.776 1.648-.615 1.648-.615.327.826.121 1.437.06 1.588.385.42.617.955.617 1.61 0 2.305-1.404 2.812-2.74 2.96.216.186.412.551.412 1.111v1.646c0 .16.096.347.4.288 2.383-.793 4.1-3.041 4.1-5.691 0-3.314-2.687-6-6-6z"/></svg></a>
+				</div>
+				</footer><hr>
+				<!-- some js -->
+<script type="text/js">
+			const hamburgerButton = document.getElementById("hamburger");
+			const navList = document.getElementById("nav-list");
+			function toggleButton() {
+							navList.classList.toggle("show")
+			}
+				hamburgerButton.addEventListener('click', toggleButton)
+		
+</script>
+				
+				
+				
+<div class="copyrightText">
+				<p>Made by M.I <a href="#">Finius-dot°</a>. Copyright © 2022,<br>All rights reserved</p>
+				
+</div>
+</body>
+</html>
