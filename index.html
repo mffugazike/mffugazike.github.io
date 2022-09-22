@@ -61,16 +61,40 @@
 				transition: 0.5s;
 				text-decoration: none;
 }
-.logo{
-				margin: 3px;
-				font-weight: 600;
-				line-height: px;
-				font-size: 20px;
-				bottom: 5%;
-				margin-top: 6px;
-}
 .logo h4{
-				font-size: 25px;
+				font-size: 19px;
+				text-align: center;
+}
+.logo{
+				line-height: px;
+				font-size: 1px;
+				width: 35%;
+				background: lightgrey;
+				animation-duration: 5s;
+ 			        animation-name: example;
+ 				animation-iteration-count: infinite;
+ 				animation-direction: reverse;
+}
+@keyframes example {
+ 	0%{
+        color: black;
+        letter-spacing:2px;
+    }
+    25%{
+    				color: teal;
+    }
+    50%{
+        letter-spacing: 3px;
+        color: blue;
+        }
+    75%{
+        letter-spacing: 3px;
+        color: red;
+    }
+    100%{
+    letter-spacing:3px;
+    	color: white;
+    }
 }
 span {
 				color: red;
